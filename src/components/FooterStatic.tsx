@@ -21,14 +21,14 @@ export default function FooterStatic({
         'text-gray-400 dark:text-gray-500',
       )}>
         <div className="flex gap-x-4 gap-y-1 flex-grow flex-wrap">
-          <Link
-            href="/admin/photos"
-            className="hover:text-gray-600 dark:hover:text-gray-400"
-          >
-            Admin
-          </Link>
-          {SHOW_REPO_LINK &&
-            <RepoLink />}
+          {/*<Link*/}
+          {/*  href="/admin/photos"*/}
+          {/*  className="hover:text-gray-600 dark:hover:text-gray-400"*/}
+          {/*>*/}
+          {/*  Admin*/}
+          {/*</Link>*/}
+          {/*{SHOW_REPO_LINK &&*/}
+          {/*  <RepoLink />}*/}
           {showSignOut &&
             <div
               className={cc(
